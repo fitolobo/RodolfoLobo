@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rodolfo Lobo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+<!-- esto es el navegador -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-guitar"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#Sobre-Mi">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Experiencia">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Trabajos">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Awards">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Education">Education</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+  <header id="Hero-Section">
+  <div class="text-center text-white">
+      <img class="fotoprincipal" src="assets/img/rodolfo_foto.jpg" alt="FotoRodolfo">
+    <h1></h1>
+    <hr class="bg-white hero-line">
+    <h1>Rodolfo Anibal Lobo</h1>
+  </div>
+  </header>
+
+  <section class="pt-5 d-none d-sm-block container" id="Sobre-Mi">
+      <div class="text-center">
+        <h1 class="font-weight-bold text-uppercase">ABOUT ME</h1>
+        <hr class="bg-dark">
+      </div>
+      <div class="row pt-3">
+        <div class="col-6">
+          <p>I am a Ph.D in applied mathematics from the University of Campinas, Brazil. My research interests include computational intelligence and biomathematics. I am currently developing hypercomplex-valued neural network models. The main applications for these models are associative memories for pattern reconstruction and classification.</p>
+        </div>
+        <div class="col-6">
+          <p>Currently, I am working at the IT and software development company Globant as a Data Scientist. I have experienced with NLP and audio applications using machine learning and deep learning models.</p>
+        </div>
+      </div>
+  </section>
+
+  <section id="Experiencia" class="container text-center py-5">
+      <div>
+        <h1 class="font-weight-bold text-uppercase">Skills</h1>
+        <hr>
+      </div>
+      <div class="row pt-3">
+
+        <article class="col-12 col-sm-4">
+            <i class="fas fa-laptop-code fa-7x"></i>
+            <h4 class="font-weight-bold mt-3">Programming</h4>
+            <h4>Python (Pandas, Numpy, Matplotlib, Plotly), Julia, Matlab</h4>
+        </article>
+        <article class="col-12 col-sm-4">
+            <i class="fas fa-brain fa-7x"></i>
+            <h4 class="font-weight-bold mt-3">Machine Learning & Deep Learning</h4>
+            <h4>Scikit-learn, Pytorch, Keras, Natural Language Processing</h4>
+        </article>
+
+        <article class="col-12 col-sm-4">
+            <i class="fas fa-wave-square fa-7x"></i>
+            <h4 class="font-weight-bold mt-3">Signal Processing</h4>
+            <h4>Audio feature extraction</h4>
+        </article>
+      </div>
+  </section>
+
+  <section id="Trabajos" class="py-5">
+    <div>
+      <h1 class=" font-weight-bold text-uppercase text-white text-center mt-2">Publications</h1>
+      <hr class="bg-white">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/imagen1.jpeg" alt="publication1" class="card-img-top">
+               <div class="card-body">
+                 <a href="#" onclick='window.open("https://www.sciencedirect.com/science/article/abs/pii/S0304397520304989");return false;'><h4 class="card-title mb-3">Quaternion-Valued Recurrent Projection Neural Networks on Unit Quaternions</h4></a>
+                    <p class="card-text font-weight-lighter">Valle, M. E., & Lobo, R. A. (2020)</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+               <img src="assets/img/imagen2.jpeg" alt="publication2" class="card-img-top">
+               <div class="card-body">
+                 <a href="#" onclick='window.open("https://www.sciencedirect.com/science/article/abs/pii/S0925231220319342");return false;'><h4 class="card-title mb-3">Hypercomplex-Valued Recurrent Correlation Neural Networks</h4></a>
+                    <p class="card-text font-weight-lighter">Valle, M. E., & Lobo, R. A. (2020)</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+               <img src="assets/img/Imagen3.jpeg" alt="publication3" class="card-img-top">
+               <div class="card-body">
+                 <a href="#" onclick='window.open("https://link.springer.com/chapter/10.1007/978-3-030-61380-8_30");return false;'><h4 class="card-title mb-3">Ensemble of Binary Classifiers Combined Using Recurrent Correlation Associative Memories</h4></a>
+                    <p class="card-text font-weight-lighter">Lobo, R. A., & Valle, M. E. (2020)</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+               <img src="assets/img/imagen4.jpeg" alt="publication4" class="card-img-top">
+               <div class="card-body">
+                 <a href="#" onclick='window.open("https://www.researchgate.net/publication/339173760_A_Brief_Tutorial_on_Quadratic_Stability_of_Linear_Parameter-Varying_Model_for_Biomathematical_Systems");return false;'><h4 class="card-title mb-3">A Brief Tutorial on Quadratic Stability of Linear Parameter-Varying Model for Biomathematical Systems</h4></a>
+                    <p class="card-text font-weight-lighter">Lobo, R. A., Palma, J. M., Morais, C. F., Carvalho, L. D. P., Valle, M. E., & Oliveira, C. R. (2019, November)</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+               <img src="assets/img/imagen5.jpeg" alt="publication5" class="card-img-top">
+               <div class="card-body">
+                 <a href="#" onclick='window.open("https://www.researchgate.net/publication/335809207_Free_Mechanical_Vibrations_Models_via_p-fuzzy_Systems");return false;'><h4 class="card-title mb-3">Free Mechanical Vibrations Models via p-fuzzy Systems</h4></a>
+                    <p class="card-text font-weight-lighter">Barros, L. C., Sanchez, D., Lobo, R., & Esmi, E. (2019, August)</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+               <img src="assets/img/imagen6.jpeg" alt="publication6" class="card-img-top">
+               <div class="card-body">
+                 <a href="#" onclick='window.open("https://www.researchgate.net/publication/335809207_Free_Mechanical_Vibrations_Models_via_p-fuzzy_Systems");return false;'><h4 class="card-title mb-3">Modeling and Stability Analysis of Salmon Mortality due to Microalgae Bloom using Linear Parameter-Varying Structure</h4></a>
+                    <p class="card-text font-weight-lighter">Sánchez, D. E., Palma, J. M., Lobo, R. A., Meyer, J. F., Morais, C. F., Rojas-Palma, A., & Oliveira, R. C. (2019, November)</p>
+               </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-4 my-3">
+            <div class="card border-0">
+               <img src="assets/img/imagen7.jpeg" alt="publication7" class="card-img-top">
+               <div class="card-body">
+                 <a href="#" onclick='window.open("https://www.researchgate.net/publication/329788475_Dinamica_de_HIV_e_posterior_AIDS");return false;'><h4 class="card-title mb-3">Dinâmica de HIV e posterior AIDS</h4></a>
+                    <p class="card-text font-weight-lighter">Morillo, C. C. E., Carrasco, R. A. L., & da Costa Meyer, J. F. (2018)</p>
+               </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="Awards" class="container text-center py-5">
+      <div>
+        <h1 class="font-weight-bold text-uppercase">Awards</h1>
+        <hr>
+      </div>
+      <div class="row pt-3">
+
+        <article class="col-12 col-sm-12">
+            <i class="fas fa-medal fa-7x"></i>
+            <a href="#" onclick='window.open("assets/img/certificado.pdf");return false;'><h4 class="font-weight-bold mt-3">1st place at the XV Brazilian Congress of Computational Intelligence (CBIC 2021) in the category of best Ph.D thesis.</h4></a>
+        </article>
+      </div>
+  </section>
+
+  <section id="Education" class="container text-center py-5">
+      <div class="">
+          <h1 class="font-weight-bold text-uppercase">Education</h1>
+        <hr class="bg-dark">
+      </div>
+      <article class="">
+        <i class="fas fa-graduation-cap fa-2x"></i>
+        <h5>Ph.D in Applied Mathematics, 2021</h5>
+        <p>University of Campinas, Brazil</p>
+      </article>
+      <article class="">
+        <i class="fas fa-graduation-cap fa-2x"></i>
+        <h5>MSc in Acoustics and Vibrations, 2016 </h5>
+        <p>Austral University of Chile </p>
+      </article>
+      <article class="">
+        <i class="fas fa-graduation-cap fa-2x"></i>
+        <h5>Bachelor of Arts with mention in Sound, 2012</h5>
+        <p>University of Chile</p>
+      </article>
+
+  </section>
+
+  <footer id="Footer" class="text-center text-white py-5">
+    <div class="row container m-auto">
+      <div class="col-12">
+        <a href="#" onclick='window.open("https://github.com/fitolobo");return false;'><i class="fab fa-github-square fa-3x mx-2"></i></a>
+        <a href="#" onclick='window.open("https://www.researchgate.net/profile/Rodolfo-Anibal-Lobo");return false;'><i class="fab fa-researchgate fa-3x mx-2"></i></a>
+        <a href="#" onclick='window.open("https://www.linkedin.com/in/rodolfo-lobo-carrasco-b4a79a19/");return false;'><i class="fab fa-linkedin fa-3x mx-2"></i></a>
+        <a href="#" onclick='window.open("https://scholar.google.com/citations?user=zN3oqyEAAAAJ&hl=es&authuser=1");return false;'><i class="fas fa-user-graduate fa-3x mx-2"></i></a>
+        <a href="#" onclick='window.open("https://orcid.org/0000-0001-9600-8469");return false;'><i class="fab fa-orcid fa-3x mx-2"></i></a>
+      </div>
+    </div>
+    <div class="row container m-auto">
+      <div class="col-12">
+      <p>rodolfolobo@ug.uchile.cl</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
