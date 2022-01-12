@@ -1,4 +1,6 @@
 # rodolfolobo
-My Page by Paula Alfaro
+My github page : academic curriculum.
+
+By Paula Alfaro. 
 
 [Link Here!](https://fitolobo.github.io/rodolfolobo/)
